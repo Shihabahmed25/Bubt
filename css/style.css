@@ -1,0 +1,203 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+line-height: 1.5;
+padding: 0;
+margin: 0;
+background-color:floralwhite;
+}
+
+.container{
+width: 88%;
+margin: auto;
+overflow: hidden;
+}
+
+ ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button1{
+    height: 38px;
+    background: #12ed33;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:whitesmoke;
+}
+
+.dark{
+    padding: 15px;
+    background: #00110ba7;
+    color: rgb(238, 235, 242);
+}
+
+#sidebar  .dark{
+    padding: 15px;
+    background: #00110ba7;
+    color: rgb(238, 235, 242);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    background:rgba(12, 1, 47, 0.865);
+    color:ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #031bf1 2px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+ header .highlight, header .current a {
+    color: #e84919;
+    font-weight: bold;
+ }
+
+ header a: hovar {
+    color: aqua;
+    font-weight:bold;
+ }
+
+#showcase{
+    min-height: 400px;
+    background:url("/img/pix1.png") no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff; 
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+#newslater{
+    padding: 15px;
+    color: rgb(244, 240, 240);
+    background: rgb(2, 1, 23);
+}
+
+#newslater h1{
+float: left;
+}
+
+#newslater form{
+    float: right;
+    margin-top: 15px;
+}
+#newslater input[type="email"]{
+    padding: 4px;
+    height: 25px;
+ 
+}
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes  .box img{
+    width: 90px;
+}
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside#sidebar .quote input , aside#sidebar .quote textarea {
+    width: 90px;
+    padding: 5px;
+}
+
+article#main-col{
+    float: left;
+    width: 60%;
+}
+ 
+ul#servies li{
+    list-style: none;
+    padding: 20px;
+    border: #d90c0c solid 1px;
+    margin-bottom: 5px;
+    background: #ed4512;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: beige;
+    background-color: rgb(237, 111, 7);
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newslater h1,
+    #newslater form,
+    #boxes  .box,
+    article#main-col,  aside#sidebar
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase h1{
+        margin-top: 40px;
+    }
+    #newslater .button1 ,.quote .button1{
+        display: block;
+        width: 100%;
+    }
+
+    #newslater form input[type="email"],quote input, .quote textarea{
+        width: 100%;
+        margin-bottom: 5px;    
+    }
+}
+
+.form_area {
+
+    width: 30%;
+}
+
